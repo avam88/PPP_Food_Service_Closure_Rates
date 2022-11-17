@@ -61,6 +61,8 @@ PPP Loan Data - https://www.sba.gov/funding-programs/loans/covid-19-relief-optio
 
 Oregon Business Active Registries - https://data.oregon.gov/
 
+National Restaurant Association - https://restaurant.org/research-and-media/research/
+
 https://www.washingtonpost.com/food/2022/06/21/covid-restaurant-closures/
 
 https://pos.toasttab.com/blog/on-the-line/restaurant-failure-rate
