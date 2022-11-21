@@ -33,9 +33,9 @@ The final merged dataframe was used to produce visualizations exploring the rela
 - The incidence of business closures increases and surpasses the count of open business around April of 2021. Loan recipients who received funding or were approved before April 2021 had a higher likelihood of remaining open, that outcome dramatically flip-flopped after April of 2021.
 
 ## Supervised Machine Learning : Forgiveness Ratio and Approval Date as predictors for Closure Status
-### Hypothesis : Forgiveness Ratio and Business Size (measured by reported jobs) are the biggest predicotrs in determing business status: a larger forgiveness ratio and larger job count will lead to a higher likelihood of a business remaining open.
+### Hypothesis : Forgiveness Ratio and Business Size (measured by reported jobs) are the biggest predictors in determing business status: a larger forgiveness ratio and larger job count will lead to a higher likelihood of a business remaining open.
 
-A classification machine learning model using logistical regression was used to predict business closure status based on the 4 loan elements identified earlier - Forgiveness Ratio, Jobs Reported, Loan Amount, Approval Date (ranked hierarchically in assumed significance). For the purposes of the analysis the reported job count was used as a proxy measure for business size. The assumption being that a business with a larger reported job count (a larger company) would have more resources, assets and leverages to insulate from the adverse economic effects of COVID19.
+A classification machine learning model using logistical regression was used to predict business closure status based on the 4 loan elements identified earlier - Forgiveness Ratio, Jobs Reported, Loan Amount, Approval Date (ranked hierarchically in assumed significance). For the purposes of the analysis the reported job count was used as a proxy measure for business size. The assumption being that a business with a larger reported job count (a larger company) would have more resources, assets to leverage and insulate from the adverse economic effects of COVID19.
 
 ![Screen Shot 2022-11-14 at 10 31 38 PM](https://user-images.githubusercontent.com/107326987/202343200-c7ff841d-ec30-4ce9-9d1e-7244ed229c25.png)
 - The model has a 62% accuracy score at predicting the classification 0 (closed businesses) and a slightly smaller accuracy score of 55% at predicting for the classifier 1 (open business).
@@ -43,7 +43,7 @@ A classification machine learning model using logistical regression was used to 
 ![Screen Shot 2022-11-14 at 10 31 47 PM](https://user-images.githubusercontent.com/107326987/202343205-d33d56ee-a293-44ae-a3c1-0d76581b7359.png)
 - Approval Date is the most significant measured loan predictor for closure status. We can see that born out in our visualization earlier that showcased April 2021 as the threshold for businesses being more or less likely to remain open. 
 - Forgiveness ratio was the 2nd strongest indicator for closure status, which is also born out in our visualizations.
-- Reported Jobs was the weakest predictor for classification. Whether a company employed 500 or 5 employees was less significant than when a business recieved their funding. 
+- Reported Jobs was the weakest predictor for classification. Whether a company employed 500 or 5 employees was less significant indicator for closure status than the funding date. 
 
 ## Final Analysis : Natural "Churn" Rate in Food Service Sector & PPP Impact on Closures
 ### Pre-COVID Food Industry "Churn" Rate vs Churn Rate of PPP Recipients
