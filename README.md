@@ -68,3 +68,6 @@ National Restaurant Association - https://restaurant.org/research-and-media/rese
 
 2. https://pos.toasttab.com/blog/on-the-line/restaurant-failure-rate
 
+### Presentation Link
+https://www.loom.com/share/37d56e70591941b0b39502f6cdd068ad
+
